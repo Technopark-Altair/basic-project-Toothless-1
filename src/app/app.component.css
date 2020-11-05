@@ -1,0 +1,35 @@
+/*Container
+==============*/
+.container {
+  display: grid;
+  grid-template-rows: 150px 1fr;
+  grid-template-columns: 500px 1fr;
+  grid-gap: 2vw;
+  font-size: 25px;
+}
+.header__inner {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: space-between;
+}
+
+.text {
+  margin-top: 0px;
+  margin-bottom: 1px;
+  text-align: right;
+}
+.list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-auto-columns: auto;
+}
+.list_href {
+  margin-bottom: 10px;
+}
+.img {
+  width: 100%;
+  height: fit-content;
+
+  align-self: auto;
+}
