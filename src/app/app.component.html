@@ -1,37 +1,10 @@
 <div class='container'>
-  <div class = 'header'>
-    <nav class='header__inner'>
-      <a href="" class="nav__link">Главная</a>
-      <a href="" class="nav__link">О проекте</a>
-      <a href="" class="nav__link">Отзывы</a>
-      <a href="" class="nav__link">Контакты</a>
-      <a href="" class="nav__link">English</a>
-      
-    </nav>
+  <app-header></app-header>
+  <div class="content">
+    <app-left-nav></app-left-nav>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
   </div>
-  <div class="logo">
-    <h3 class="text">Ленинградские</h3>
-    <h3 class="text">Математические</h3>
-    <h3 class="text">Кружки</h3>
-  </div>
-  <div class="list">
-    <a href="list_href">глава 1. Нулевой цикл</a>
-    <a href="list_href">глава 2. Четность</a>
-    <a href="list_href">глава 3. Комбинаторика-1 </a>
-    <a href="list_href">глава 4. Делимость и остатки</a>
-    <a href="list_href">глава 5. Принцип Дирихле</a>
-    <a href="list_href">глава 6. Графы-1</a>
-    <a href="list_href">глава 7. Неравенства треугольника</a>
-    <a href="list_href">глава 8. Игры</a>
-    <a href="list_href">глава 9. Индукция</a>
-    <a href="list_href">глава 10. Делимость-2</a>
-    <a href="list_href">глава 11. Комбинаторика-2</a>
-    <a href="list_href">глава 12. Инвариант</a>
-    <a href="list_href">глава 13. Графы-2</a>
-    <a href="list_href">глава 15. Системы счисления</a>
-    <a href="list_href">глава 16. Неравенства</a>
-  </div>
-  <div>
-    <img class='img' src="assets/img/TKykJYibIxQ.jpg" alt=""  >
-  </div>
+  
 </div>
